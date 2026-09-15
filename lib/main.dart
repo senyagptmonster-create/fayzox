@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'presentation/fayzox_app.dart';
+import 'fayzox_app.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(const FayzoxStudioApp());
+  runApp(const FayzoxApp());
 }
